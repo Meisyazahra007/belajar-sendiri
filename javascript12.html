@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>form javascript</title>
+</head>
+<body>
+   <form onsubmit="validasi()"></form>
+   <div>
+    <label>nama lengkap</label>
+    <input type="text" id="namanya">
+   </div>
+   <div>
+    <input type="submit" value="daftar">
+   </div>
+   <script>
+    function validasi(){
+        var nama=document.getElementById("namanya").value;
+        documen.write("terima kasih telah mendaftar hai" + nama.toUppercase());
+    }
+   </script>
+</body>
+</html>
